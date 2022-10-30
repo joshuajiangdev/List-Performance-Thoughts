@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct List_Performance_ThoughtsApp: App {
+    let rootState = RootState.example()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView(rootState: rootState)
         }
     }
 }

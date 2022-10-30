@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		F93EEBB6290E530C0050FD14 /* List_Performance_ThoughtsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93EEBB5290E530C0050FD14 /* List_Performance_ThoughtsApp.swift */; };
-		F93EEBB8290E530C0050FD14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93EEBB7290E530C0050FD14 /* ContentView.swift */; };
+		F93EEBB8290E530C0050FD14 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93EEBB7290E530C0050FD14 /* RootView.swift */; };
 		F93EEBBA290E530E0050FD14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F93EEBB9290E530E0050FD14 /* Assets.xcassets */; };
 		F93EEBBD290E530E0050FD14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F93EEBBC290E530E0050FD14 /* Preview Assets.xcassets */; };
+		F93EEBC4290E531C0050FD14 /* RootState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93EEBC3290E531C0050FD14 /* RootState.swift */; };
+		F93EEBC6290E532B0050FD14 /* ItemState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93EEBC5290E532B0050FD14 /* ItemState.swift */; };
+		F93EEBC8290E537D0050FD14 /* LineComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93EEBC7290E537D0050FD14 /* LineComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F93EEBB2290E530C0050FD14 /* List-Performance-Thoughts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "List-Performance-Thoughts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F93EEBB5290E530C0050FD14 /* List_Performance_ThoughtsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_Performance_ThoughtsApp.swift; sourceTree = "<group>"; };
-		F93EEBB7290E530C0050FD14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F93EEBB7290E530C0050FD14 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		F93EEBB9290E530E0050FD14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F93EEBBC290E530E0050FD14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F93EEBC3290E531C0050FD14 /* RootState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootState.swift; sourceTree = "<group>"; };
+		F93EEBC5290E532B0050FD14 /* ItemState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemState.swift; sourceTree = "<group>"; };
+		F93EEBC7290E537D0050FD14 /* LineComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				F93EEBB5290E530C0050FD14 /* List_Performance_ThoughtsApp.swift */,
-				F93EEBB7290E530C0050FD14 /* ContentView.swift */,
+				F93EEBB7290E530C0050FD14 /* RootView.swift */,
 				F93EEBB9290E530E0050FD14 /* Assets.xcassets */,
 				F93EEBBB290E530E0050FD14 /* Preview Content */,
+				F93EEBC3290E531C0050FD14 /* RootState.swift */,
+				F93EEBC5290E532B0050FD14 /* ItemState.swift */,
+				F93EEBC7290E537D0050FD14 /* LineComponent.swift */,
 			);
 			path = "List-Performance-Thoughts";
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F93EEBB8290E530C0050FD14 /* ContentView.swift in Sources */,
+				F93EEBB8290E530C0050FD14 /* RootView.swift in Sources */,
+				F93EEBC8290E537D0050FD14 /* LineComponent.swift in Sources */,
+				F93EEBC4290E531C0050FD14 /* RootState.swift in Sources */,
+				F93EEBC6290E532B0050FD14 /* ItemState.swift in Sources */,
 				F93EEBB6290E530C0050FD14 /* List_Performance_ThoughtsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
